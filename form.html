@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Form Page</title>
+	<style>
+		b{
+			display: flex;
+			
+		}
+		h1{
+			text-align: center;
+		}
+		form {
+			margin: 50px auto;
+			width: 500px;
+			padding: 20px;
+			background-color: #d0e7ba;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(21, 21, 21, 0.3);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="text"], select, textarea {
+			width: 50%;
+			padding: 10px 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			
+		}
+		
+		input[type="email"], select, textarea {
+            
+			width: 50%;
+			padding: 9px;
+			margin-bottom: 15px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+		}
+		input[type="password"],textarea{
+			width:50%;
+			padding: 9px;
+			border: none;
+
+		}
+		input[type="submit"] {
+			background-color: #d04529;
+			color: rgb(35, 49, 9);
+			padding: 10px 20px 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body style="background-color: #acbcbe;" >
+	<form>
+		<h1><u>Fill your information</u></h1><hr><br>
+		<b>First Name : </b><input type="text" id="name" name="name" required><br>
+        <b>Second Name : </b><input type="text" id="name" name="name" required><br>
+        <b>Mobile number : </b><input type="text" id="name" name="name" required><br>
+        <b>Address : </b><input type="text" id="name" name="name" required><br>
+        <b>Date of birth : </b><input type="date" id="name" name="name" required>
+        <br><br>
+
+		<b>Email: </b> 
+		<input type="email" id="email" name="email" required><br>
+		<b>Password : </b><input type="password" id="email" name="email" required>
+		<br><br>
+		<b>Gender : </b>
+		
+			<input type="radio" name="am"> Male
+			<input type="radio" name="am"> Female
+			<input type="radio" name="am"> Other
+		<br><br>
+
+		<label for="message"><b>Message:</b></label>
+		<textarea id="message" placeholder="Any Message !!" name="message" rows="5" required></textarea><br>
+
+		<input type="text" name="text" class="search" placeholder="Search here!">
+  <input type="submit" name="submit" class="submit" value="Search">
+		
+		<br><br>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
