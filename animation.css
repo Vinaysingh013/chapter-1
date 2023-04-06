@@ -1,0 +1,26 @@
+.box{
+    background-color: rgb(255, 0, 0);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    transition-property: circle;
+    transition-delay: 5s;
+    margin: 200px;
+
+
+
+}
+.box:hover{
+    background-color: rgb(35, 195, 45);
+    transition-property: circle;
+    transition-delay: 5s;
+
+    
+
+
+
+}
+.container {
+    border: 2px solid black;
+
+}
